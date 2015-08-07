@@ -330,3 +330,257 @@ button:hover{
 	width: 510px;
 	font-family: georgia, "times new roman", times, serif;
 }
+
+.theory-of-inflation{
+	min-width: 720px;
+	max-width: 945px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	overflow: hidden;
+	margin: 15px;
+	padding: 15px 0;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.TOI-headline{
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+	font-weight: 700;
+	color: #333
+	margin-bottom: 3px;
+}
+
+.TOI-lead{
+	font-size: 0.875rem;
+	line-height: 1.125rem;
+	font-weight: 400;
+	color: #666;
+	margin-bottom: 3px;
+}
+
+.TOI-graphic{
+	color: #666;
+	font-size: 0.75rem;
+	line-height: 16px;
+	font-weight: 400;
+}
+
+.g-type{
+	width: 720px;
+	height: auto;
+}
+
+.g-type-text{
+	position: absolute;
+	width: 173px;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 300;
+	color: #000000;
+}
+
+.g-type-text p span{
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: .05em;
+}
+
+.interactive-footer{
+	font-size: 0.75rem;
+	line-height: 0.875rem;
+	font-weight: 300;
+	color: #999;
+}
+
+.youtube{
+	position: relative;
+	width: 510px;
+	margin: 45px 0 45px 135px;
+}
+
+.youtubecaption{
+	font-size: 0.81rem
+	line-height: 1.1rem;
+	font-weight: 300;
+	color: #666;
+}
+
+.youtube-caption-text{
+	font-size: 0.81rem;
+	line-height: 1.1rem;
+	font-weight: 300;
+	display: block;
+}
+.youtube-credit{
+	font-size: 0.7rem;
+	line-height: 1rem;
+	font-weight: 400;
+	display: inline-block;
+	color: #999;
+}
+
+.photo{
+	margin: 45px 0 45px 135px;
+	width: 510px;
+}
+
+.photoimg{
+	width: 510px;
+}
+
+.photo-caption{
+	font-size: 0.8rem;
+	line-height: 1.1rem;
+	font-weight: 300;
+	display: block;
+}
+
+.photo-credit{
+	font-size: 0.69rem;
+	line-height: 1rem;
+	font-weight: 400;
+	display: inline-block;
+	color: #999;
+}
+
+.story-footer{
+	position: relative;
+	margin: 24px 0 45px 135px;
+	width: 510px;
+	font-size: 0.69rem;
+	line-height: 0.94rem;
+	font-weight: 300;
+	color: #999;
+}
+
+.next-in{
+	margin: 45px 0 62px 135px;
+	width: 510px;
+	padding-top: 11px;
+	border-top: 1px dotted #e2e2e2
+	clear: both;
+	font-size: 0.6rem;
+	line-height: 0.94rem;
+	font-weight: 400;
+	float: left;
+}
+
+.module-heading{
+	font-size: 0.6rem;
+	line-height: 0.94rem;
+	font-weight: 400;
+	float: left;
+}
+
+.next{
+	float: right;
+	width: 70%;
+	text-align: right;
+	line-height: 19px;
+	font-weight: 400;
+	margin-right: 15px;
+	color: black;
+}
+
+.next a:link{
+	text-decoration: none;
+	color: black;
+}
+
+.next a:hover{
+	text-decoration: underline;
+}
+
+.most-shared{
+	border-top: 1px dotted #999;
+	width: 300px;
+	float: right;
+	clear: right;
+	margin: 5px 0 45px 30px;
+	padding-top: 10px;
+}
+
+.shared-header{
+	font-size: 0.69rem;
+	line-height: 0.69rem;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 1rem;
+}
+
+.shared-ol{
+	list-style-position: inside;
+	margin: 0;
+	padding: 0;
+}
+
+.shared-li{
+	border-top: none;
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+	font-weight: 400;
+	position: relative;
+	text-align: right;
+	padding: 15px 280px 12px 0;
+	color: #000;
+}
+.shared-story{
+	margin-left: 30px;
+	position: relative;
+	height: 100%;
+}
+
+.shared-thumb{
+	float: right;
+	width: 40px;
+	margin: 3px 0;
+	position: relative;
+	max-width: 65px;
+	height: auto;
+	clear: none;
+}
+
+.shared-story-heading{
+	float: none;
+	clear: none;
+	margin: 0;
+	display: table;
+	width: auto;
+	padding-right: 10px;
+	color: inherit;
+	font-size: 0.8rem;
+	line-height: 1.1rem;
+	font-weight: 400;
+}
+
+.shared-story-link{
+	font-size: 0.8rem;
+	line-height: 1rem;
+	font-weight: 400;
+	position: absolute;
+	width: 100%;
+	height: 46px;
+	left: 0;
+	top: 0;
+	text-align: left;
+	color: #326891;
+	cursor: pointer;
+}
+
+.shared-footer{
+	font-size: 0.7rem;
+	line-height: 0.9rem;
+	font-weight: 400;
+	color: black;
+}
+
+.shared-footer a:link{
+	color: black;
+	text-decoration: none;
+}
+
+.shared-footer a:hover{
+	text-decoration: underline;
+}
